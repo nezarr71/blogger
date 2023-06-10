@@ -1,0 +1,324 @@
+
+
+
+
+
+footer{
+	background-color: #212329;
+	color:#fff;
+	width: 100%;
+	height:48vh;
+}
+
+
+
+/*Selector is not working???! */
+
+a:hover, a:visited, a:link, a:active{
+	text-decoration: none;
+
+}
+
+
+
+
+
+#typeScript{
+	height:23vh;
+	width:100%;
+	background:#212329	;
+
+}
+
+
+
+
+
+#liverty{
+	height:21vh;
+	width:100%;
+	background:#212329	;
+	
+}
+
+
+
+
+
+/* recycled little guy */
+
+.tiny_bar{
+	display: flex;
+	justify-content: space-around;
+	background-color:orange ;
+	width:100% ;
+	height:2rem ;
+
+
+}
+
+
+
+
+
+.caster{
+
+	text-align: center;
+	color:#fff;
+}
+
+
+
+/*DO NOT touch!  */
+.content{
+	display:grid;
+	place-items: center;
+
+
+}
+
+
+
+.survey{
+	position:relative;
+	left: 46rem;
+	top: 18rem;
+	background-color: #808080;
+	height:10rem ;
+	width:15rem;
+	color:#fff ;
+}
+
+
+
+
+/* here lies the last modification for text */
+.big{
+	line-height: 1.8;
+	text-indent: 50px;
+
+}
+
+
+
+
+
+
+
+/* this is the reulesets for the chapter one page */
+
+.sidenav{
+	height:100%;
+	width:0;
+	position:fixed;
+	z-index: 1;
+	background-color:orange;
+	overflow-x:hidden;
+	transition:0.5s;
+	padding-top:60px;
+
+}
+
+
+
+
+.sidenav a{
+	padding:8px 8px 8px 32px;
+	font-size: 25px;
+	display:block;
+	color:#212329;
+	transition:0.3s;
+
+
+}
+
+
+.sidenav .closebtn{
+	position:absolute;
+	top:0;
+	right:24px;
+	font-size: 35px;
+	margin-left: 49px;
+}
+
+
+
+
+ .sidenav a:hover{
+	color:#fff;
+
+
+}
+
+
+.naranja{
+	display: flex;
+	justify-content: space-around;
+	background: orange;
+	width:100%;
+	height:2rem;
+	
+}
+
+
+
+
+
+.mantle{
+	display:flex;
+	justify-content: center;
+	
+}
+
+
+.abyss{
+
+	position:relative;
+	left:35rem;
+	
+}
+
+
+
+#theLast{
+	color:#fff;
+	background-color: red;
+
+
+}
+
+
+
+
+/* this is the CSS behind chapter three */
+
+
+#survivors{
+	height:10rem;
+	width:100%;
+	background:#212329;
+
+}
+
+
+/* landing page rulesets */
+
+#wrapper{
+	height:10rem;
+	width:100%
+
+	
+}
+
+
+/* the social networks */
+
+.button-17{
+			align-items: center;
+			appearance:none;
+			/* need to make dual classes */
+			border-radius: 24px;
+			border-style:none;
+			box-shadow: rgba(0, 0, 10, .10)0 3px 5px -1px rgba(0, 0, 0, .14)0 6px 10px 0, rgba(0, 0,0, .12)0 1px 18px 0;
+			box-sizing: border-box;
+			color:#fff;
+			display:inline-flex;
+			fill:currentColor;
+			font-size: 1rem;
+			height:48px;
+			letter-spacing: .25px;
+			line-height: normal;
+			max-width: 100%;
+			overflow: visible;
+			padding:2px 24px;
+			text-align:center;
+			text-transform: none;
+			transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2 1) 0ms;
+			user-select: none;
+			-webkit-user-select: none;
+			touch-action: manipulation;
+			width:auto;
+			will-change: transform, opacity;
+			z-index: 0;
+		}
+
+
+
+
+
+		.red-btn{
+			position:absolute ;
+			background:red;
+			right:28rem;
+
+		}
+
+
+		/* hover effect for text */
+
+		.red-btn:hover{
+			background-color:#7f0000;
+			color:yellow;
+
+
+		}
+
+
+		/* this rule gives the button some shadows on the edge */
+
+		.red-btn:active{
+			box-shadow: 0 4px 4px 0 rgb(60 64 67/30%), 0 8px 12px 6px rgb(60 64 67/15%);
+			outline: none;
+
+		}
+
+
+		.red-btn:focus{
+			outline:none;
+			border:2px solid #d0df03 ;
+		}
+
+
+
+		
+
+
+
+
+		/* now for all the specs of the twitter button */
+
+
+
+		.blue-btn{
+			position:relative ;
+			background-color:skyblue ;
+			right:8rem;
+
+		}
+
+
+
+		.blue-btn:hover{
+			background:navy;
+			color:yellow;
+
+		}
+
+
+
+
+		.blue-btn:active{
+			box-shadow:0 4px 4px 0 rgb(60 64 67/30%), 0 8px 12px 6px rgb(60 64 67/15%) ;
+			outline:none;
+
+		}
+
+
+
+		.blue-btn:focus{
+			outline: none;
+			border: 2px solid #d0df03;
+
+		}
+
+
