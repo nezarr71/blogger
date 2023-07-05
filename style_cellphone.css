@@ -1,0 +1,205 @@
+
+/* when I used display: GRID; on my doc, it worked just fine, however when I try making 
+   new rules for it, it disables them!!!  */
+
+
+body{
+	font-style: ;
+
+
+}
+
+
+footer{
+	height:25vh ;
+	width:100%;
+	background-color: #212329;
+	color:#fff;
+}
+
+
+
+
+#big-bar{
+	height:23vh ;
+	width:100%;
+	background:#212329;
+
+}
+
+
+
+
+
+.orange{
+	height:3.5rem ;
+	width:100%;
+	background-color: orange;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+
+.sidenav{
+	height:100%;
+	width:0;
+	position:fixed;
+	z-index: 1;
+	background-color: orange;
+	overflow-x: hidden;
+	transition:0.5s;
+	padding-top:60px;
+
+
+}
+
+
+
+.sidenav a{
+	padding:8px 8px 8px 32px;
+	font-size: 25px;
+	display:block;
+	color:#212329;
+	transition:0.3s;
+
+}
+
+
+
+
+
+
+
+.sidenav .closebtn{
+	position:absolute ;
+	top:0;
+	right:24px;
+	font-size: 35px;
+	margin-left: 45px;
+
+}
+
+
+
+
+.content{
+	display:grid ;
+	place-items:center ;
+
+}
+
+
+
+
+.survey{
+	background-color:#808080 ;
+	height:10rem;
+	width:16rem;
+	color:#fff;
+}
+
+
+
+
+
+.ground{
+	background:#212329;
+	height:12rem ;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+.caster{
+	color:#fff;
+	justify-content: center;
+	text-align: center;
+
+}
+
+
+
+.goLang{
+	background-color: #212329;
+	height:11rem;
+	
+}
+
+
+
+
+
+/* moving the buttons on mobile is always a huge pain*/
+
+
+
+
+.button-21{
+	appearance: none;
+	align-items: center;
+	border-radius:40%;
+	box-shadow: rgba(0, 0, 10, .10)0 3px 5px 1px rgba(0, 0, 0, .14)0 6px 10px rgba(0, 0, 0,.12)0 1px 18px ;
+	border-style: none;
+	box-sizing: border-box;
+	color:#fff;
+	display: inline-flex;
+	fill: currentColor;
+	font-size: 1rem;
+	height:31px;
+	letter-spacing: .25;
+	line-height: normal;
+	max-width:100%;
+	overflow:visible;
+	text-align: center;
+	text-transform:box-shadow 280ms ;
+	user-select:none ;
+	-webkit-user-select:none;
+	touch-action: manipulation;
+	width:auto;
+	will-change: transform, opacity;
+	z-index: 0;
+
+}
+
+
+
+
+
+
+
+.blue-btn{
+	position: relative;
+	right: 45px;
+	background:skyblue;
+
+}
+
+
+
+
+.red-btn{
+	background-color: red;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
